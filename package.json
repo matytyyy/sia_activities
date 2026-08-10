@@ -1,0 +1,30 @@
+{
+  "name": "ijan.sia",
+  "version": "1.0.0",
+  "description": "activities",
+  "keywords": [
+    "sia",
+    "matt",
+    "act",
+    "activities",
+    "sy25-26"
+  ],
+  "homepage": "https://github.com/matytyyy/sia_activities#readme",
+  "bugs": {
+    "url": "https://github.com/matytyyy/sia_activities/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matytyyy/sia_activities.git"
+  },
+  "license": "ISC",
+  "author": "Ijan, Matt",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
