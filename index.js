@@ -16,7 +16,7 @@ server.get('/', (req, res) => {
 return  res.json({
           lname: "Ijan",
           fname: "Matt",
-          minitial: "D",
+          mninitial: "D",
 
 })
 
