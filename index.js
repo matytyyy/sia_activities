@@ -1,13 +1,23 @@
 // package imports
 
-const express = require('express');
+const app = require('express')
 
-const app = express()
+// server set up
 
-app.get('/', (req, res) => {
-  res.send('Hello World')
+const server = app()
+const PORT = 2007
+const HOSTNAME = "0.0.0.0"
+server.listen(PORT, HOSTNAME, () => {
+console.log("Server is running!! in $(");
+
 })
 
-app.listen(3000, () => {
-  console.log('Server is running on http://localhost:3000')
+server.get('/', (req, res) => {
+return  res.json({
+          lname: "Ijan",
+          fname: "Matt",
+          minitial: "D",
+
+})
+
 })
